@@ -3,7 +3,7 @@
 
 	<package>entity</package>
 	
-	<mapped-superclass class="fr.lsi.zacta.domain.common.entity.AbstractBaseEntity">
+	<mapped-superclass class="fr.lsi.gardsafe.domain.common.entity.AbstractBaseEntity">
 		<attributes>
 			<id name="id" />
 		</attributes>

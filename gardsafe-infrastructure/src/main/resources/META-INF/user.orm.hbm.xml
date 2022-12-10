@@ -2,7 +2,7 @@
 <entity-mappings version="2.1" xmlns="http://java.sun.com/xml/ns/persistance/orm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm_2_1.xsd">
 
 	<description>User domain module </description>
-	<entity class="fr.lsi.zacta.domain.login.model.User" name="User" access="FIELD">
+	<entity class="fr.lsi.gardsafe.domain.login.model.User" name="User" access="FIELD">
 		<attributes>
 			<basic name="lastName">
 				<column name="LASTNAME" />

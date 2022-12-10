@@ -27,17 +27,6 @@
 			<scope>test-runtime</scope>
 		</dependency>
 
-		<!-- Dépendance Serveur -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-
 		<!-- Dépendance Test -->
 		<dependency>
 			<groupId>com.h2database</groupId>

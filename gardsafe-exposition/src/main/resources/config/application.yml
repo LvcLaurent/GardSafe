@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: GardSafe-service
+  jta:
+    enabled: true
+  
+  jpa:
+    mapping-resources:
+      - META-INF/user.orm.hbm.xml
+      - META-INF/common.orm.hbm.xml
+    open-in-view: false
+    
+# Logging Configuration
+application:
+  orgEntity: LSI
+  version: "1.0.0"
+
+logging:
+  level:
+    ROOT: INFO
