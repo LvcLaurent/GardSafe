@@ -1,0 +1,42 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/gardsafe-exposition/src/main/resources/static
+/nbdist/
+/.nb-gradle/
+build/
+
+# dependencies
+/gardsafe-site/prez/node_modules
+/gardsafe-site/prez/node/
+/gardsafe-site/prez/.editorconfig
+/gardsafe-site/prez/.gitignore
+
+
+### VS Code ###
+.vscode/
+
+
+*.bak
